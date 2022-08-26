@@ -1,0 +1,189 @@
+body
+{
+    margin: 0;
+    font-family: 'Fira Sans', sans-serif;
+    background-color: rgba(85, 85, 85, 0.082);
+}
+
+a{
+text-decoration: none;
+color: rgb(15, 14, 14);
+}
+.navbar1
+{
+background-color: rgb(255, 255, 255);
+height:80px; 
+width: 60%; 
+display: flex;
+flex-direction: row;
+align-items: center;
+gap: 20px;
+justify-content:space-around;
+font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.leftnavbar 
+{
+display: flex;
+flex-direction: row;
+font-family: 'Source Sans Pro', sans-serif;
+}
+
+ 
+.dropbtn {
+    background-color: #ffffff;
+    color: rgb(15, 14, 14);
+    padding: 25px;
+    font-size: 15px;
+    border: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    align-items: center;
+    margin-top:11px ;
+    border-right: 1.2px solid #555;
+  }
+  
+ 
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  
+ 
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  
+  .dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+  }
+  
+
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+
+  .dropdown:hover .dropdown-content {display: block;}
+  
+
+  .dropdown:hover .dropbtn {background-color: rgba(255, 255, 255, 0.623);}
+
+
+
+
+
+.leftnavbar p {
+   margin: 35px 20px 17px 20px;
+   gap: 40px;
+
+   
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+
+.rightnav {
+    height: 80px;
+    width: 40%;
+    display: flex;
+    gap: 60px;
+    justify-content: end;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+
+    
+}
+.rightnavbar2{
+    margin-right:150px;
+}
+
+
+.logonavbar{
+    margin-left:100px ;
+}
+
+.logonavbar a{
+    font-family: 'Noto Serif HK', serif;
+    color: black;
+    font-size: 15px;
+}
+.logonavbar span{
+    font-family: 'Noto Serif HK', serif;
+    color: rgb(250, 16, 78);
+    font-size: 40px;
+}
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #000000;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #0d90ff;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+  .sochlm{
+display: flex;
+flex-direction: column;
+
+
+  }

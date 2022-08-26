@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All products - tccstore</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+     <div class="container">
+   <div class="navbar">
+       <div class="logo">
+        <a href="C:\project_selim\Site_shop\Home.html"><img src="images/logo.png" width="125px"></a>
+       </div>
+       <nav>
+          <ul><li><a href="C:\project_selim\Site_shop\Home.html">Home</a></li>
+             <li><a href="C:\project_selim\Site_shop\products.html">Products</a></li>
+            
+             <li><a href="C:\project_selim\Site_shop\contact.html">Contact</a></li>
+             <li><a href="C:\project_selim\Site_shop\account.html">Account</a></li>
+         </ul>
+       </nav>
+       <a href="C:\project_selim\Site_shop\CART.HTML"><img src="images/cart.png" width="30px" height="30px"></a>
+   </div>
+
+  </div>
+</div> 
+
+<!-----------------account-page------------------------->
+<div class="account-page">
+  <div class="container">
+    <div class="row">
+      <div class="col-2">
+        <img src="images/pcll-removebg-preview.png" width="100%">
+      </div>
+      
+      <div class="col-2">
+        <div class="form-container">
+            <div class="form-btn">
+                <span onclick="login()"><a href="C:\project_selim\Site_shop\account2.html"> </a</span>
+                <span onclick="register()"><a href="C:\project_selim\Site_shop\account.html"></a> Register</span>
+                <hr id="Indicator">
+            </div>
+            
+
+            <form id="RegForm">
+                <input type="text" placeholder="Username">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="password">
+                <button type="submit" class="btn">Register</button>
+            </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>download Our App</h3>
+                <p>download App for Android ios mobile phone.</p>
+                <div class="app-logo">
+                    <img src="images/play-store.png" alt="">
+                    <img src="images/app-store.png" alt="">
+                </div>
+            </div>
+            <div class="footer-col-2">
+             <!--il img tbadalha btaswiret il logo gdid-->  <img src="images/logo.png" alt="">
+               <p class="Copyright" >Copyright © 2022 Tcc. selim mosbah-final project GOMYCODE</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                <li>Coupons</li>
+                <li>blog Post</li>
+                <li>return Policy</li>
+                <li>Join Affilite</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Useful Links</h3>
+                <ul>
+                <li>Facebook</li>
+                <li>Instagram</li>
+                <li>Twiter</li>
+                <li>Youtube</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!---------- js for toggle form---------->
+<Script>
+    var LoginForm = document.getElementById("LoginForm");
+    var RegForm = document.getElementById("RedForm");
+    var Indicator = document.getElementById("Indicator");
+    
+    function register(){
+        
+      RegForm .style.transform =  "translateX(0px)";
+      LoginForm .style.transform = "translateX(0px)";
+} 
+
+    function login(){
+
+        RegForm.style.transform = "translateX(300px)";
+      LoginForm.style.transform = "translateX(300px)";
+
+}
+      
+</Script>
+
+</body>
+</html>  
+
+
+
+
+
+
+
+
+
+  
